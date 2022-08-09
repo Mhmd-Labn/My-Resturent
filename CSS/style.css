@@ -1,0 +1,308 @@
+html {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 30px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.main-nav li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    border: solid 1px rgb(0, 162, 255);
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(0, 162, 255);
+}
+
+section {
+    padding: 40px 0px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    border: solid 3px rgb(0, 162, 255);
+    background-color: rgb(0, 162, 255);
+    margin-bottom: 30px;
+}
+#About{
+    height: 700px;
+    margin-top: 20px;
+}
+.l-about{
+    text-align: right;
+}
+
+.l-about img{
+    margin-top: 30px;
+    width: 100%;
+    height: 60%;
+}
+.r-about p{
+    line-height: 1.6;
+}
+
+.r-about{
+    
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.feat-desc {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.box i {
+    font-size: 50px;
+    color: rgb(0, 162, 255);
+    text-align: left;
+}
+
+.box p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+#meals {
+    padding: 0px;
+}
+
+.meal {
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img {
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: 0.5;
+    transition: 2s;
+    transform: scale(1.5);
+}
+
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+.city img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.city i{
+    color: rgb(0, 162, 255);
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.testimonials{
+    margin-top: 30px;
+    background: linear-gradient(rgba(40, 29, 59, 0.7), rgba(40, 51, 21, 0.7)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.testimonials i{
+    font-size:50px ;
+
+}
+
+.testimonials p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.testimonials img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#Menu {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.Menu {
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.Menu img {
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: 0.5;
+    transition: 2s;
+    transform: scale(1.5);
+}
+
+.Menu img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+
+.sign form{
+    margin-top: 50px;
+}
+
+input[type="email"],
+input[type=text],
+textarea,
+select
+{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+    border: solid #ddd 1px;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]{
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: rgb(0, 162, 255);
+    border: solid 2px rgb(0, 255, 149);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(0, 162, 255);
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer li{
+    margin-left: 30px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+footer img{
+    width: 60px;
+    margin: 0px 10px ;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+}
+
+footer span{
+    font-size: larger;
+}
